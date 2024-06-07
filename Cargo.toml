@@ -1,0 +1,12 @@
+[package]
+name = "warrant"
+version = "0.1.0"
+authors = ["ifsheldon <feng.liang@kaust.edu.sa>"]
+description = "A Swift-guard-like macro for Rust"
+keywords = ["guard", "macro"]
+edition = "2018"
+license-file = "LICENSE"
+
+
+[dependencies]
+
