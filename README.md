@@ -1,6 +1,7 @@
 # warrant
 
-A guard macro that is like `guard` in Swift.
+A macro like `guard` in Swift.
+
 It helps to better express code logic without mind twists when checking conditions.
 
 It implements what I termed "procedural warranty".
