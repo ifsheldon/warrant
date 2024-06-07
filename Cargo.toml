@@ -1,11 +1,15 @@
 [package]
 name = "warrant"
 version = "0.1.0"
-authors = ["ifsheldon <feng.liang@kaust.edu.sa>"]
+authors = ["Feng Liang <official@fengliang.io>"]
 description = "A Swift-guard-like macro for Rust"
 keywords = ["guard", "macro"]
 edition = "2018"
 license-file = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/ifsheldon/warrant"
+repository = "https://github.com/ifsheldon/warrant"
+documentation = "https://github.com/ifsheldon/warrant/blob/main/README.md"
 
 
 [dependencies]

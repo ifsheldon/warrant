@@ -14,8 +14,8 @@ Add `warrant = "0.1.0"` to your `Cargo.toml`.
 ```rust
 // if some condition is not satisfied, early return.
 let condition = is_satisfied();
-if !condition {
-    return;
+if ! condition {
+return;
 }
 // proceed
 ```
@@ -36,3 +36,9 @@ warrant!(condition, else {
 ## License
 
 [MIT](./LICENSE)
+
+## Additional References
+
+* Pattern Matched Guard: consider just use `if-let-else`
+* "Structural Warranty": to enforce a condition on a struct, [nutype](https://github.com/greyblake/nutype) is a good
+  one.
