@@ -14,8 +14,8 @@ Add `warrant = "0.1.0"` to your `Cargo.toml`.
 ```rust
 // if some condition is not satisfied, early return.
 let condition = is_satisfied();
-if ! condition {
-return;
+if !condition {
+    return;
 }
 // proceed
 ```
